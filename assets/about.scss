@@ -1,0 +1,114 @@
+/*==================== ABOUT ====================*/
+
+.about__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers both carousel and text */
+    justify-content: center;
+    text-align: center;
+    max-width: 900px; /* Adjust the max width for the container */
+    margin: 0 auto; /* Center the container */
+    gap: 2rem; /* Space between carousel and text */
+    padding: 0 20px; /* Add padding for small screens */
+}
+
+.about_icon {
+    font-size: var(--big-font-size);
+    color: var(--text-color);
+    opacity: 70%;
+}
+
+.about__img {
+    width: 100%; /* Full width of the carousel */
+    max-width: 600px; /* Increase the maximum width for the images */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 0.5rem;
+}
+
+.about__carousel {
+    width: 100%; /* Full width of the carousel */
+    max-width: 600px; /* Increase the maximum width for the carousel */
+    margin: 0 auto; /* Center the carousel */
+    height: 400px !important; /* Default height for larger screens */
+}
+
+/* Responsive heights for different screen sizes */
+@media screen and (max-width: 1024px) {
+    .about__carousel {
+        height: 350px !important; /* Height for medium screens */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about__carousel {
+        height: 300px !important; /* Height for smaller screens */
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .about__carousel {
+        height: 250px !important; /* Height for mobile screens */
+    }
+}
+
+.about__data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1.0rem 0 !important;/* Set a consistent vertical margin */
+    padding: 0 20px; /* Add side padding for small screens */
+}
+
+/* Keep the description text styling */
+.about__description {
+    text-align: center;
+    font-size: var(--small-font-size);
+    margin-bottom: 1rem;
+}
+
+.about__description-link {
+    color: var(--first-color);
+}
+
+.about__description-link:hover {
+    color: var(--first-color-alt);
+}
+
+.about_text_link {
+    color: var(--second-color)
+}
+
+.about_text_link:hover {
+    color: var(--second-color-alt)
+}
+
+/*==================== MEDIA QUERIES ====================*/
+
+@media screen and (min-width: 568px) {
+    .about__container {
+        gap: 2.5rem;
+        padding: 0 40px; /* Increase side padding for medium screens */
+    }
+
+    .about__data {
+        padding: 1.5rem 40px; /* Keep consistent padding without margin */
+        // margin-top: -20px !important;
+        margin: 0 0 !important;
+    }
+}
+
+@media screen and (min-width: 660px) {
+    .about__container {
+        padding: 0 40px; /* Maintain side padding for larger screens */
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .about__container {
+        gap: 3rem;
+    }
+
+    .about__data {
+        padding: 1.5rem 40px; /* Keep consistent padding */
+    }
+}
