@@ -1,0 +1,32 @@
+.roster_icon {
+    font-size: var(--big-font-size);
+    color: var(--text-color);
+    opacity: 70%;
+}
+
+.roster {
+    text-align: center;
+    padding: 2rem 0;
+  }
+  
+  .roster__container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .roster__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  .roster__name {
+    font-weight: bold;
+    margin-top: 0.5rem;
+  }
+  
+  .roster__position {
+    color: gray;
+    margin-top: 0.25rem;
+  }
