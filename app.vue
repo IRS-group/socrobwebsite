@@ -4,16 +4,16 @@
       <Header />
       <Home />
       <About />
+      <Competitions />
     </v-app>
   </NuxtLayout>
 </template>
 
 <script setup lang="ts">
   import Header from '@/components/Header.vue'
-  import AboutSection from '@/components/AboutSection.vue'
-  import CompetitionsSection from '@/components/CompetitionsSection.vue'
-  import PublicationsSection from '@/components/PublicationsSection.vue'
-  import FooterSection from '@/components/FooterSection.vue'
+  import Home from '@/components/Home.vue'
+  import About from '@/components/About.vue'
+  import Competitions from '@/components/Competitions.vue'
 </script>
 
 <style>

@@ -39,7 +39,7 @@
   const navItems = [
     { label: 'Home', link: '#home', icon: 'mdi-home-account' },
     { label: 'About', link: '#about', icon: 'mdi-account' },
-    { label: 'Qualifications', link: '#qualification', icon: 'mdi-brain' },
+    { label: 'Competitions', link: '#competitions', icon: 'mdi-brain' },
     { label: 'Projects', link: '#projects', icon: 'mdi-robot' },
     { label: 'Publications', link: '#publications', icon: 'mdi-book-open' },
     { label: 'Activities', link: '#activities', icon: 'mdi-cog' }
