@@ -40,7 +40,7 @@
     { label: 'Home', link: '#home', icon: 'mdi-home-account' },
     { label: 'About', link: '#about', icon: 'mdi-account' },
     { label: 'Competitions', link: '#competitions', icon: 'mdi-brain' },
-    { label: 'Projects', link: '#projects', icon: 'mdi-robot' },
+    { label: 'Roster', link: '#roster', icon: 'mdi-robot' },
     { label: 'Publications', link: '#publications', icon: 'mdi-book-open' },
     { label: 'Activities', link: '#activities', icon: 'mdi-cog' }
   ]

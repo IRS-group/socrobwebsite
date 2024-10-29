@@ -5,6 +5,7 @@
       <Home />
       <About />
       <Competitions />
+      <Roster />
     </v-app>
   </NuxtLayout>
 </template>
@@ -14,6 +15,7 @@
   import Home from '@/components/Home.vue'
   import About from '@/components/About.vue'
   import Competitions from '@/components/Competitions.vue'
+  import Roster from '@/components/Roster.vue'
 </script>
 
 <style>
