@@ -72,3 +72,23 @@
     .old-website-link {
     color: var(--second-color);
     }
+
+    /* Media queries for responsive design */
+  @media (max-width: 650px) {
+    .full-list-note  {
+      font-size: 0.9rem; /* Slightly smaller text on smaller screens */
+    }
+  }
+  
+  @media (min-width: 601px) and (max-width: 900px) {
+    .full-list-note  {
+      font-size: 0.9rem; /* Adjust text size for medium screens */
+    }
+  }
+
+  @media (max-width: 540px) {
+    .full-list-note  {
+      font-size: 0.9rem; /* Slightly smaller text on smaller screens */
+    }
+
+  }

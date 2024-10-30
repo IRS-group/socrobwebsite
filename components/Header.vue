@@ -43,6 +43,7 @@
     { label: 'Roster', link: '#roster', icon: 'mdi-robot' },
     { label: 'Robots', link: '#robots', icon: 'mdi-cog' },
     { label: 'Publications', link: '#publications', icon: 'mdi-book-open' },
+    { label: 'Media', link: '#media', icon: 'mdi-book-open' },
   ]
   
   // Toggles the menu visibility

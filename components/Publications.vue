@@ -48,8 +48,8 @@
       <p class="full-list-note">
         If you wish to have a full list of publications, please check our 
         <a href="https://irsgroup.isr.tecnico.ulisboa.pt/projects/socrob-home/" target="_blank" class="old-website-link">
-          old website
-        </a>.
+          old website.
+        </a>
       </p>
     </section>
   </template>

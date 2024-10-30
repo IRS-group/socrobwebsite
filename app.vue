@@ -8,6 +8,7 @@
       <Roster />
       <Robots />
       <Publications/>
+      <Media/>
     </v-app>
   </NuxtLayout>
 </template>
@@ -20,6 +21,7 @@
   import Roster from '@/components/Roster.vue'
   import Robots from '@/components/Robots.vue'
   import Publications from '@/components/Publications.vue'
+  import Media from '@/components/Media.vue'
 </script>
 
 <style>
