@@ -1,0 +1,74 @@
+.publications_icon {
+    font-size: var(--big-font-size);
+    color: var(--text-color);
+    opacity: 70%;
+    }
+
+  .publications__container {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .publications-carousel {
+    /* background-color: #f5f5f5; */
+  }
+  
+  .publications__content {
+    background-color: #f5f5f5;
+    padding: 20px;
+    /* border-radius: 5px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); */
+    border-radius: 0.25rem !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15) !important;
+    max-width: 90%; /* Smaller width for a compact look */
+    margin: auto; /* Center the item within the carousel */
+  }
+  
+  .publications__data {
+    padding: 15px;
+  }
+  
+  .publications__name {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .publications__type {
+    color: #666;
+    margin-bottom: 0.5rem;
+  }
+  
+  .publications__info-author,
+  .publications__info-keywords {
+    margin-bottom: 1rem;
+  }
+  
+  .publications__author,
+  .publications__keywords {
+    font-weight: bold;
+  }
+  
+  .publications__author-text,
+  .publications__keywords-text {
+    color: #444;
+  }
+  
+  /* Style for carousel delimiter buttons */
+    .v-carousel > .v-carousel__controls > .v-btn {
+    color: grey !important;
+    }
+
+    .v-carousel > .v-carousel__controls > .v-btn--active {
+    color: var(--first-color) !important;
+    }
+
+    .full-list-note {
+    margin-top: 40px;
+    font-size: 1rem;
+    text-align: center;
+    color: #666;
+    }
+    
+    .old-website-link {
+    color: var(--second-color);
+    }

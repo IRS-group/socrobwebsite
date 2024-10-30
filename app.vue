@@ -7,6 +7,7 @@
       <Competitions />
       <Roster />
       <Robots />
+      <Publications/>
     </v-app>
   </NuxtLayout>
 </template>
@@ -18,6 +19,7 @@
   import Competitions from '@/components/Competitions.vue'
   import Roster from '@/components/Roster.vue'
   import Robots from '@/components/Robots.vue'
+  import Publications from '@/components/Publications.vue'
 </script>
 
 <style>
