@@ -41,8 +41,8 @@
     { label: 'About', link: '#about', icon: 'mdi-account' },
     { label: 'Competitions', link: '#competitions', icon: 'mdi-brain' },
     { label: 'Roster', link: '#roster', icon: 'mdi-robot' },
+    { label: 'Robots', link: '#robots', icon: 'mdi-cog' },
     { label: 'Publications', link: '#publications', icon: 'mdi-book-open' },
-    { label: 'Activities', link: '#activities', icon: 'mdi-cog' }
   ]
   
   // Toggles the menu visibility

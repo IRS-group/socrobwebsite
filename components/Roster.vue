@@ -80,7 +80,7 @@
     {
       name: 'Rodrigo Coimbra',
       position: 'MSc Student',
-      image: '/team/robotMale.jpg',
+      image: '/team/cropped/rodrigoCoimbra.png',
     },
     {
       name: 'Teresa Nogueira',
