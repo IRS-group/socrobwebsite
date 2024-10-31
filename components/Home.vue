@@ -5,7 +5,7 @@
             <!-- Social Links -->
             <div class="home__social">
                 <a
-                href="https://www.youtube.com/redirect?event=channel_description&redir_token=QUFFLUhqa0NWcG9MbDR4S3FVZHQ5eTQ0SE9MQTZ5cHZoZ3xBQ3Jtc0tteEpTMjFnQmtGX2NYZk0xZTRHTHlyc1NMWFpCcHhzTlctbDQ3b0pJQjZmMmU3Q1ljaFpRT3FCdlBuZWVpRVdFOWJXM2ppbW5tTXItb0VrYlJHOUpTaE9MRlh4NHlrZkNyZkMydFh6MVZybkJLZGxOSQ&q=https%3A%2F%2Fwww.instagram.com%2Fsocrobhome"
+                href="https://www.instagram.com/socrobhome/"
                 target="_blank"
                 rel="noreferrer"
                 class="home__social-icon"

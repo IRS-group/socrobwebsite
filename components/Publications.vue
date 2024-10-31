@@ -46,9 +46,9 @@
   
       <!-- Message about the full list of publications -->
       <p class="full-list-note">
-        If you wish to have a full list of publications, please check our 
+        If you wish to have a full list of publications, please check this 
         <a href="https://irsgroup.isr.tecnico.ulisboa.pt/projects/socrob-home/" target="_blank" class="old-website-link">
-          old website.
+          link.
         </a>
       </p>
     </section>

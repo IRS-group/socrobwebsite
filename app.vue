@@ -2,13 +2,16 @@
   <NuxtLayout>
     <v-app>
       <Header />
-      <Home />
-      <About />
-      <Competitions />
-      <Roster />
-      <Robots />
-      <Publications/>
-      <Media/>
+      <main className="main">
+        <Home />
+        <About />
+        <Competitions />
+        <Roster />
+        <Robots />
+        <Publications/>
+        <Media/>
+      </main>
+      <Footer/>
     </v-app>
   </NuxtLayout>
 </template>
@@ -22,6 +25,7 @@
   import Robots from '@/components/Robots.vue'
   import Publications from '@/components/Publications.vue'
   import Media from '@/components/Media.vue'
+  import Footer from '@/components/Footer.vue'
 </script>
 
 <style>

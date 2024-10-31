@@ -19,9 +19,9 @@
         </div>
   
         <div class="nav__btns">
-          <v-icon class="change-theme" @click="toggleDarkTheme" id="theme-button">
+          <!-- <v-icon class="change-theme" @click="toggleDarkTheme" id="theme-button">
             {{ themeIcon }}
-          </v-icon>
+          </v-icon> -->
           <div class="nav__toggle" @click="openMenu">
             <v-icon>mdi-menu</v-icon>
           </div>
@@ -37,13 +37,13 @@
   const activeMenu = ref(false)
   const themeIcon = ref('mdi-home-account')
   const navItems = [
-    { label: 'Home', link: '#home', icon: 'mdi-home-account' },
-    { label: 'About', link: '#about', icon: 'mdi-account' },
-    { label: 'Competitions', link: '#competitions', icon: 'mdi-brain' },
-    { label: 'Roster', link: '#roster', icon: 'mdi-robot' },
-    { label: 'Robots', link: '#robots', icon: 'mdi-cog' },
-    { label: 'Publications', link: '#publications', icon: 'mdi-book-open' },
-    { label: 'Media', link: '#media', icon: 'mdi-book-open' },
+    { label: 'Home', link: '#home', icon: 'mdi-home-outline' },
+    { label: 'About', link: '#about', icon: 'mdi-account-outline' },
+    { label: 'Competitions', link: '#competitions', icon: 'mdi-trophy-outline' },
+    { label: 'Roster', link: '#roster', icon: 'mdi-robot-outline' },
+    { label: 'Robots', link: '#robots', icon: 'mdi-account-group-outline' },
+    { label: 'Publications', link: '#publications', icon: 'mdi-book-open-variant-outline' },
+    { label: 'Media', link: '#media', icon: 'mdi-youtube' },
   ]
   
   // Toggles the menu visibility
