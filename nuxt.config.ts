@@ -26,6 +26,7 @@ export default defineNuxtConfig({
     '/assets/custom-theme.scss',
   ],
   app: {
+    baseURL: '/socrobwebsite/',
     head: {
       title: 'SocRob@Home', // Your app title
       meta: [
