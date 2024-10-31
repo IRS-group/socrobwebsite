@@ -58,17 +58,17 @@
     
             <!-- Content Data -->
             <div class="home__data">
-            <h1 class="home__title">Hi there</h1>
-            <h3 class="home__subtitle">
-                We are SocRob@Home
-                <v-icon class="home__bulb-icon">mdi-robot</v-icon>
-            </h3>
-            <p class="home__description">Institute for Systems & Robotics</p>
-    
-            <a href="https://welcome.isr.tecnico.ulisboa.pt/" target="_blank" rel="noreferrer" class="home_button_link button--flex">
-                Team Description Paper
-                <v-icon>mdi-book-arrow-down-outline</v-icon>
-            </a>
+                <h1 class="home__title">Hi there</h1>
+                <h3 class="home__subtitle">
+                    We are SocRob@Home
+                    <v-icon class="home__bulb-icon">mdi-robot</v-icon>
+                </h3>
+                <p class="home__description">Institute for Systems & Robotics</p>
+        
+                <a href="/tdp/TeamDescriptionPaper.pdf" download="TeamDescriptionPaper.pdf" class="home_button_link button--flex">
+                    Team Description Paper
+                    <v-icon>mdi-book-arrow-down-outline</v-icon>
+                </a>
             </div>
         </div>
         </div>

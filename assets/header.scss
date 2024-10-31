@@ -65,7 +65,12 @@
     padding: 2rem 1.5rem 4rem;
     box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
     border-radius: 1.5rem 1.5rem 0 0;
-    transition: 3s;
+    transition: bottom 0.3s ease; /* Smooth transition */
+  }
+
+  /* Show menu when active */
+  .show-menu {
+    bottom: 0; /* Bring it into view */
   }
 }
 
@@ -78,7 +83,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* font-size: var(--smaller-font-size); */
   font-size: 0.7rem;
   color: var(--title-color);
   font-weight: var(--font-medium);
@@ -93,21 +97,17 @@
 }
 
 .nav__close {
-  position: absolute;
-  right: 1.3rem;
-  bottom: 0.5rem;
-  font-size: 1.5rem;
-  cursor: pointer;
-  color: var(--first-color);
+  position: absolute; /* Position it within the nav menu */
+  right: 1.5rem; /* Adjust right position */
+  top: 1rem; /* Adjust top position */
+  font-size: 1.5rem; /* Ensure it's large enough */
+  cursor: pointer; /* Pointer on hover */
+  color: var(--first-color); /* Ensure it's visible */
+  z-index: 1000; /* Ensure it's above other elements */
 }
 
 .nav__close:hover {
   color: var(--first-color-alt);
-}
-
-/* show menu */
-.show-menu {
-  bottom: 0;
 }
 
 /* Active link */
@@ -153,7 +153,7 @@
   .nav__icon,
   .nav__close,
   .nav__toggle {
-    display: none;
+    display: none; /* Hide these on larger screens */
   }
 
   .nav__list {
@@ -162,29 +162,10 @@
   }
 
   .nav__menu {
-    /* The auto keyword will give the left side a share of the remaining space. */
-    /* margin-left: auto; */
-    margin: 0;
+    margin: 0; /* Ensure no margin for the menu */
   }
 
   .change-theme {
-    margin: 0;
+    margin: 0; /* Remove margin for theme button */
   }
 }
-
-/* For large devices
-/**** width: 1024px, height: 658px *****/
-/* @media screen and (min-width: 1024px) { */
-/* Not used */
-/* .header {
-    padding: 0 !important;
-  } */
-
-/* .nav__menu {
-    margin: 0;
-  }
-
-  .nav {
-    max-width: 100%;
-  } */
-/* } */
