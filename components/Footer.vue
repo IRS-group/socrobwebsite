@@ -51,19 +51,19 @@
             <!-- Sponsor Logos Section -->
             <div class="footer__sponsors">
                 <a href="https://welcome.isr.tecnico.ulisboa.pt/" target="_blank">
-                    <img src="@/public/logos/isr_logo_white.png" alt="ISR" class="footer__sponsor-logo" />
+                    <img src="/logos/isr_logo_white.png" alt="ISR" class="footer__sponsor-logo" />
                 </a>
                 <a href="https://tecnico.ulisboa.pt/pt/" target="_blank">
-                    <img src="@/public/logos/ist_logo_white.png" alt="IST" class="footer__sponsor-logo" />
+                    <img src="/logos/ist_logo_white.png" alt="IST" class="footer__sponsor-logo" />
                 </a>
                 <a href="https://welcome.isr.tecnico.ulisboa.pt/larsys/" target="_blank">
-                    <img src="@/public/logos/larsys_logo_white.png" alt="Larsys" class="footer__sponsor-logo" />
+                    <img src="/logos/larsys_logo_white.png" alt="Larsys" class="footer__sponsor-logo" />
                 </a>
                 <a href="https://www.fct.pt/" target="_blank">
-                    <img src="@/public/logos/fct_logo_white.png" alt="FCT" class="footer__sponsor-logo" />
+                    <img src="/logos/fct_logo_white.png" alt="FCT" class="footer__sponsor-logo" />
                 </a>
                 <a href="https://aquisevende.pt/" target="_blank">
-                    <img src="@/public/logos/aqui-se-vende-textil-criativo.png" alt="AquiSeVendeTextilCreativo" class="footer__sponsor-logo" />
+                    <img src="/logos/aqui-se-vende-textil-criativo.png" alt="AquiSeVendeTextilCreativo" class="footer__sponsor-logo" />
                 </a>
             </div>
             <p class="footer__copy">Website designed by Rodrigo Serra</p>

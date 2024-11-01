@@ -53,7 +53,7 @@
 
             <!-- Profile Image -->
             <div class="home__img">
-                <img src="@/public/logos/socrob_home_logo.png" alt="Profile Image" class="home__profile-img" />
+                <img src="/logos/socrob_home_logo.png" alt="Profile Image" class="home__profile-img" />
             </div>
     
             <!-- Content Data -->

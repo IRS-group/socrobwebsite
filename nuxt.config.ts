@@ -1,6 +1,10 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
+// nuxt.config.ts
 import vuetify, { transformAssetUrls } from 'vite-plugin-vuetify'
+
 export default defineNuxtConfig({
+  experimental: {
+    payloadExtraction: true
+  },
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
   build: {
@@ -13,7 +17,7 @@ export default defineNuxtConfig({
         config.plugins.push(vuetify({ autoImport: true }))
       })
     },
-    //...
+    // Add any other modules here if necessary
   ],
   vite: {
     vue: {
@@ -26,7 +30,8 @@ export default defineNuxtConfig({
     '/assets/custom-theme.scss',
   ],
   app: {
-    baseURL: '/socrobwebsite/',
+    baseURL: '/socrobwebsite/',  // Adjust this to match your GitHub Pages repo name
+    buildAssetsDir: 'assets',
     head: {
       title: 'SocRob@Home', // Your app title
       meta: [
@@ -35,13 +40,13 @@ export default defineNuxtConfig({
         {
           hid: 'description',
           name: 'description',
-          content: 'This is a brief description of your application.' // Replace with your actual description
+          content: 'This is a brief description of your application.'
         },
         { name: 'msapplication-TileColor', content: '#da532c' },
         { name: 'theme-color', content: '#ffffff' }
       ],
       link: [
-        { rel: 'icon', type: 'image/x-icon', href: '/socrobfavicon.ico' } // Link to your favicon
+        { rel: 'icon', type: 'image/x-icon', href: '/socrobwebsite/socrobfavicon.ico' } // Adjusted path
       ]
     }
   },

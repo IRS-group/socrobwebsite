@@ -47,27 +47,13 @@
                   Hardware
                 </p>
                 <ul class="robots__modal-robot-partners-list">
-                  <li class="robots__modal-robot-partners-list-element">
-                    <p class="robots__modal-robot-partners-list-element-text">Azure Kinect Camera</p>
-                  </li>
-                  <li class="robots__modal-robot-partners-list-element">
-                    <p class="robots__modal-robot-partners-list-element-text">Realsense Camera</p>
-                  </li>
-                  <li class="robots__modal-robot-partners-list-element">
-                    <p class="robots__modal-robot-partners-list-element-text">Rode Mic</p>
-                  </li>
-                  <li class="robots__modal-robot-partners-list-element">
-                    <p class="robots__modal-robot-partners-list-element-text">Ouster OS1</p>
-                  </li>
-                  <li class="robots__modal-robot-partners-list-element">
-                    <p class="robots__modal-robot-partners-list-element-text">2xHokuyo Laser</p>
-                  </li>
-                  <li class="robots__modal-robot-partners-list-element">
-                    <p class="robots__modal-robot-partners-list-element-text">Jetson Xavier NX</p>
-                  </li>
-                  <li class="robots__modal-robot-partners-list-element">
-                    <p class="robots__modal-robot-partners-list-element-text">TP-Link Switch</p>
-                  </li>
+                  <li class="robots__modal-robot-partners-list-element">Azure Kinect Camera</li>
+                  <li class="robots__modal-robot-partners-list-element">Realsense Camera</li>
+                  <li class="robots__modal-robot-partners-list-element">Rode Mic</li>
+                  <li class="robots__modal-robot-partners-list-element">Ouster OS1</li>
+                  <li class="robots__modal-robot-partners-list-element">2xHokuyo Laser</li>
+                  <li class="robots__modal-robot-partners-list-element">Jetson Xavier NX</li>
+                  <li class="robots__modal-robot-partners-list-element">TP-Link Switch</li>
                 </ul>
               </div>
             </div>
@@ -79,7 +65,7 @@
       <div :key="2" class="robots__content">
         <div>
           <v-avatar size="100" class="robots__icon3">
-            <img src="/robots/mbot.png" alt="MBot" />
+            <img src="/robots/mbot.jpg" alt="MBot" />
           </v-avatar>
           <h3 class="robots__title">MBot</h3>
           <button
@@ -117,15 +103,9 @@
                   Hardware
                 </p>
                 <ul class="robots__modal-robot-partners-list">
-                  <li class="robots__modal-robot-partners-list-element">
-                    <p class="robots__modal-robot-partners-list-element-text">Cyton 1500 Robai Arm with 7 DoF</p>
-                  </li>
-                  <li class="robots__modal-robot-partners-list-element">
-                    <p class="robots__modal-robot-partners-list-element-text">Rode Mic</p>
-                  </li>
-                  <li class="robots__modal-robot-partners-list-element">
-                    <p class="robots__modal-robot-partners-list-element-text">Touchscreen</p>
-                  </li>
+                  <li class="robots__modal-robot-partners-list-element">Cyton 1500 Robai Arm with 7 DoF</li>
+                  <li class="robots__modal-robot-partners-list-element">Rode Mic</li>
+                  <li class="robots__modal-robot-partners-list-element">Touchscreen</li>
                 </ul>
               </div>
             </div>
@@ -175,21 +155,11 @@
                   Hardware
                 </p>
                 <ul class="robots__modal-robot-partners-list">
-                  <li class="robots__modal-robot-partners-list-element">
-                    <p class="robots__modal-robot-partners-list-element-text">Touchscreen on a laptop for HRI</p>
-                  </li>
-                  <li class="robots__modal-robot-partners-list-element">
-                    <p class="robots__modal-robot-partners-list-element-text">Hokuyo UTM-30LX</p>
-                  </li>
-                  <li class="robots__modal-robot-partners-list-element">
-                    <p class="robots__modal-robot-partners-list-element-text">Kinect RGB-D</p>
-                  </li>
-                  <li class="robots__modal-robot-partners-list-element">
-                    <p class="robots__modal-robot-partners-list-element-text">IP PTZ camera</p>
-                  </li>
-                  <li class="robots__modal-robot-partners-list-element">
-                    <p class="robots__modal-robot-partners-list-element-text">Rode Mic</p>
-                  </li>
+                  <li class="robots__modal-robot-partners-list-element">Touchscreen on a laptop for HRI</li>
+                  <li class="robots__modal-robot-partners-list-element">Hokuyo UTM-30LX</li>
+                  <li class="robots__modal-robot-partners-list-element">Kinect RGB-D</li>
+                  <li class="robots__modal-robot-partners-list-element">IP PTZ camera</li>
+                  <li class="robots__modal-robot-partners-list-element">Rode Mic</li>
                 </ul>
               </div>
             </div>

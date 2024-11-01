@@ -8,8 +8,20 @@
         <div class="about__container container grid">
             <!-- Vuetify Carousel for Images -->
             <v-carousel hide-delimiters cycle :show-arrows="false" class="about__carousel">
-                <v-carousel-item v-for="(image, i) in images" :key="i">
-                    <v-img :src="image" class="about__img" />
+                <!-- <v-carousel-item v-for="(image, i) in images" :key="i">
+                    <img src="/about/1.png" class="about__img" />
+                </v-carousel-item> -->
+                <v-carousel-item>
+                    <!-- <v-img :src="image" class="about__img" /> -->
+                    <img src="/about/1.png" class="about__img" />
+                </v-carousel-item>
+                <v-carousel-item>
+                    <!-- <v-img :src="image" class="about__img" /> -->
+                    <img src="/about/2.png" class="about__img" />
+                </v-carousel-item>
+                <v-carousel-item>
+                    <!-- <v-img :src="image" class="about__img" /> -->
+                    <img src="/about/3.png" class="about__img" />
                 </v-carousel-item>
             </v-carousel>
 
