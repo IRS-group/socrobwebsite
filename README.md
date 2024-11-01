@@ -2,6 +2,8 @@
 
 Single-page application for the SocRob@Home team, built with [Nuxt 3](https://nuxt.com/) and [Vuetify](https://vuetifyjs.com/), and hosted on [GitHub Pages](https://github.com/IRS-group/socrobwebsite).
 
+[Check the website](https://irs-group.github.io/socrobwebsite/)
+
 ## Introduction
 
 This project is a single-page website developed to showcase the SocRob@Home team, built using Nuxt 3 for its powerful SSR and static site generation capabilities and Vuetify for UI components.
