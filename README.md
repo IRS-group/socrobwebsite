@@ -1,75 +1,81 @@
-# Nuxt Minimal Starter
+# SocRob@Home Website
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Single-page application for the SocRob@Home team, built with [Nuxt 3](https://nuxt.com/) and [Vuetify](https://vuetifyjs.com/), and hosted on [GitHub Pages](https://github.com/IRS-group/socrobwebsite).
+
+## Introduction
+
+This project is a single-page website developed to showcase the SocRob@Home team, built using Nuxt 3 for its powerful SSR and static site generation capabilities and Vuetify for UI components.
 
 ## Setup
 
-Make sure to install dependencies:
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/IRS-group/socrobwebsite.git
+   cd socrobwebsite
 
-```bash
-# npm
-npm install
+2. **Install Dependencies**: Make sure you have Node.js installed, then install project dependencies by running:
+    ```bash
+   npm install
 
-# pnpm
-pnpm install
+3. **Nuxt Configuration**:
+- No additional configuration is required for initial setup.
+- Ensure that nuxt.config.ts has the correct baseURL and buildAssetsDir settings for local testing and deployment (explained below).
 
-# yarn
-yarn install
 
-# bun
-bun install
-```
+## Edit & Test Locally
 
-## Development Server
+The project is modular, with each section of the site divided into Vue components for easier navigation and editing.
 
-Start the development server on `http://localhost:3000`:
+1. **Local Development**:
+- To start the project locally, first remove (or comment out) the following lines in ```nuxt.config.ts```:
+    ```bash
+   app: {
+        baseURL: '/socrobwebsite/',  // Adjust this to match your GitHub Pages repo name
+        buildAssetsDir: 'assets'
+    }
+- Then run:
+    ```bash
+   npm run dev
+- The website will be accessible at http://localhost:3000/.
 
-```bash
-# npm
-npm run dev
+2. **Testing & Content Editing**:
+- You can edit content in the respective component files within the ```components/``` directory.
+- Save your changes to see them automatically reflected at ```http://localhost:3000/```.
 
-# pnpm
-pnpm dev
+3. **Note on Image Paths & Deployment**:
+- During deployment, we encountered issues with image paths, especially when looping over arrays using ```v-for```. To address this, we replaced looped image handling with individual statements. This temporary workaround will be improved in future versions.
 
-# yarn
-yarn dev
 
-# bun
-bun run dev
-```
 
-## Production
+## Deployment
 
-Build the application for production:
+We use GitHub Pages to host the website. Deployment involves generating the static site files and pushing them to the ``gh-pages `` branch.
 
-```bash
-# npm
-npm run build
+1. **Deployment Configuration**:
+- Uncomment (or add back) the following lines in ```nuxt.config.ts``` before deployment:
+     ```bash
+    app: {
+        baseURL: '/socrobwebsite/',  // Adjust this to match your GitHub Pages repo name
+        buildAssetsDir: 'assets'
+    }
 
-# pnpm
-pnpm build
+2. **Generate & Deploy**:
+- To prepare and deploy the site, run:
+    ```bash
+    npm run generate
+    npm run deploy
 
-# yarn
-yarn build
+3. **Check Deployment Status**:
+- The website takes a few minutes to deploy. You can monitor the deployment status on [GitHub Pages settings](https://github.com/IRS-group/socrobwebsite/settings/pages). For additional deployment details, click on "Last deployed" for logs.
 
-# bun
-bun run build
-```
+4. **Helpful Resources**: We used the following tutorials to set up GitHub Pages deployment for Nuxt 3:
+- [lucpotage/nuxt-github-pages](https://github.com/lucpotage/nuxt-github-pages)
+- [darioTecchia/nuxt3-ghpages](https://github.com/darioTecchia/nuxt3-ghpages/tree/main)
+- [Alejandro Suárez's Blog](https://alejandrosuarez.eu/blog/how-to-deploy-nuxt3-app-in-github-pages/)
 
-Locally preview production build:
 
-```bash
-# npm
-npm run preview
 
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Future Work
+- [ ] Fix night mode display issues
+- [ ] Resolve image path and ```v-for``` issues on deployment
+- [ ] Improve the "Publications" section with better styling and layout

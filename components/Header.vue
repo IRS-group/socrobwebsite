@@ -14,7 +14,7 @@
                 <v-icon class="nav__icon">{{ item.icon }}</v-icon> {{ item.label }}
               </a>
             </li>
-            <v-icon class="mdi-close nav__close" @click="closeMenu"></v-icon>
+            <v-icon class="mdi-close nav__close" @click="closeMenu">X</v-icon>
           </ul>
         </div>
   

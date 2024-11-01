@@ -65,10 +65,14 @@
                 </h3>
                 <p class="home__description">Institute for Systems & Robotics</p>
         
-                <a href="/tdp/TeamDescriptionPaper.pdf" download="TeamDescriptionPaper.pdf" class="home_button_link button--flex">
+                <a href="https://irs-group.github.io/socrobwebsite/tdp/TeamDescriptionPaper.pdf" download="TeamDescriptionPaper.pdf" target="_blank"class="home_button_link button--flex">
                     Team Description Paper
                     <v-icon>mdi-book-arrow-down-outline</v-icon>
                 </a>
+                <!-- <a href="/tdp/TeamDescriptionPaper.pdf" download="TeamDescriptionPaper.pdf" target="_blank"class="home_button_link button--flex">
+                    Team Description Paper
+                    <v-icon>mdi-book-arrow-down-outline</v-icon>
+                </a> -->
             </div>
         </div>
         </div>
