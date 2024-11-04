@@ -1,100 +1,158 @@
 .publications_icon {
-    font-size: var(--big-font-size);
-    color: var(--text-color);
-    opacity: 70%;
+  font-size: var(--big-font-size);
+  color: var(--text-color);
+  opacity: 70%;
+}
+
+.publications__container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.publications__content {
+  background-color: #f5f5f5;
+  width: 620px; /* Default width for large screens */
+  height: auto; /* Adjusted height for consistent look */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 0.25rem !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15) !important;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.publications__data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.publications__name {
+  font-size: 1.15rem;
+  font-weight: bold;
+  margin: 0 0 0.5rem;
+  overflow-wrap: break-word;
+}
+
+.publications__type {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.publications__info-author {
+  font-size: 0.85rem;
+  color: #444;
+  margin-bottom: 1rem;
+  overflow-wrap: break-word;
+}
+
+.publications__author {
+  font-weight: bold;
+}
+
+.button2 {
+  margin-top: auto;
+}
+
+.v-carousel > .v-carousel__controls > .v-btn {
+  color: grey !important;
+}
+
+.v-carousel > .v-carousel__controls > .v-btn--active {
+  color: var(--first-color) !important;
+}
+
+.full-list-note {
+  margin-top: 40px;
+  font-size: 1rem;
+  text-align: center;
+  color: #666;
+}
+
+.old-website-link {
+  color: var(--second-color);
+}
+
+.carousel-button {
+  // position: absolute;
+  // bottom: -5px; /* Adjust to position below the card */
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+
+  &--prev {
+    left: 10px;
+    background-color: var(--second-color); /* Red color */
+  }
+
+  &--next {
+    right: 10px;
+    background-color: var(--first-color); /* Blue color */
+  }
+
+  /* Icon styling inside button */
+  .v-icon {
+    font-size: 18px; /* Adjust icon size if needed */
+  }
+}
+
+/* Responsive Styles */
+
+/* Medium screens (tablets) */
+@media (max-width: 900px) {
+  .publications__content {
+    width: 80%; /* Smaller width for medium screens */
+    height: auto; /* Adjust height slightly */
+  }
+}
+
+/* Small screens (phones) */
+@media (max-width: 650px) {
+  .carousel-button {
+    width: 20px;
+    height: 20px;
+
+    &--prev {
+      left: 0px;
     }
+  
+    &--next {
+      right: 0px;
+    }
+  }
 
   .publications__container {
-    max-width: 800px;
-    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
   }
-  
-  // .publications-carousel {
-  //   background-color: #f5f5f5;
-  // }
-  
+
   .publications__content {
-    background-color: #f5f5f5;
-    padding: 20px;
-    /* border-radius: 5px;
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); */
-    border-radius: 0.25rem !important;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15) !important;
-    max-width: 90%; /* Smaller width for a compact look */
-    margin: auto; /* Center the item within the carousel */
-  }
-  
-  .publications__data {
+    width: 100%; /* Full width on smaller screens */
     padding: 15px;
+    height: auto;
   }
-  
+
   .publications__name {
-    font-size: 1.25rem;
-    font-weight: bold;
-  }
-  
-  .publications__type {
-    color: #666;
-    margin-bottom: 0.5rem;
-  }
-  
-  .publications__info-author,
-  .publications__info-keywords {
-    margin-bottom: 1rem;
-  }
-  
-  .publications__author,
-  .publications__keywords {
-    font-weight: bold;
-  }
-  
-  .publications__author-text,
-  .publications__keywords-text {
-    color: #444;
-  }
-  
-  /* Style for carousel delimiter buttons */
-    .v-carousel > .v-carousel__controls > .v-btn {
-    color: grey !important;
-    }
-
-    .v-carousel > .v-carousel__controls > .v-btn--active {
-    color: var(--first-color) !important;
-    }
-
-    .full-list-note {
-    margin-top: 40px;
-    font-size: 1rem;
-    text-align: center;
-    color: #666;
-    }
-    
-    .old-website-link {
-    color: var(--second-color);
-    }
-
-    /* Media queries for responsive design */
-  @media (max-width: 650px) {
-    .full-list-note  {
-      font-size: 0.9rem; /* Slightly smaller text on smaller screens */
-      margin-left: 10px;
-      margin-right: 10px;
-    }
-  }
-  
-  @media (min-width: 601px) and (max-width: 900px) {
-    .full-list-note  {
-      font-size: 0.9rem; /* Adjust text size for medium screens */
-      margin-left: 15px;
-      margin-right: 15px;
-    }
+    font-size: 1rem; /* Smaller font size on small screens */
   }
 
-  @media (max-width: 540px) {
-    .full-list-note  {
-      font-size: 0.9rem; /* Slightly smaller text on smaller screens */
-      margin-left: 15px;
-      margin-right: 15px;
-    }
-
+  .publications__type,
+  .publications__info-author {
+    font-size: 0.8rem;
   }
+
+  .full-list-note {
+    font-size: 0.9rem;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}

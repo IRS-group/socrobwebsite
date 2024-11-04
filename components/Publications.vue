@@ -10,10 +10,30 @@
         <v-carousel
           height="auto"
           hide-delimiters
-          cycle
+          show-arrows
           class="publications-carousel"
-          :show-arrows="false"
         >
+        <!-- Custom Prev Button -->
+          <template v-slot:prev="{ props }">
+            <v-btn
+              icon
+              @click="props.onClick"
+              class="carousel-button carousel-button--prev"
+            >
+              <v-icon>mdi-chevron-left</v-icon>
+            </v-btn>
+          </template>
+
+          <!-- Custom Next Button -->
+          <template v-slot:next="{ props }">
+            <v-btn
+              icon
+              @click="props.onClick"
+              class="carousel-button carousel-button--next"
+            >
+              <v-icon>mdi-chevron-right</v-icon>
+            </v-btn>
+          </template>
           <!-- Loop through publications and render each in a slide -->
           <v-carousel-item
             v-for="(publication, index) in publications"
