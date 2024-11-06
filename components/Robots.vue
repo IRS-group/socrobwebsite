@@ -27,7 +27,7 @@
         >
           <div class="robots__modal-content">
             <h4 class="robots__modal-title">Bob</h4>
-            <p class="robots__modal-date">2022 - Current</p>
+            <p class="robots__modal-date">2021 - Current</p>
             <v-btn icon @click="closeModal" class="robots__modal-close">
               <v-icon>mdi-close</v-icon>
             </v-btn>
@@ -97,7 +97,7 @@
         >
           <div class="robots__modal-content">
             <h4 class="robots__modal-title">MBot</h4>
-            <p class="robots__modal-date">TODO</p>
+            <p class="robots__modal-date">2016 - 2022</p>
             <v-btn icon @click="closeModal" class="robots__modal-close">
               <v-icon>mdi-close</v-icon>
             </v-btn>
@@ -155,7 +155,7 @@
         >
           <div class="robots__modal-content">
             <h4 class="robots__modal-title">ISR-CoBot</h4>
-            <p class="robots__modal-date">TODO</p>
+            <p class="robots__modal-date">2014</p>
             <v-btn icon @click="closeModal" class="robots__modal-close">
               <v-icon>mdi-close</v-icon>
             </v-btn>

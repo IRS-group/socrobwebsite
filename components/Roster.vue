@@ -126,7 +126,7 @@
           <v-col cols="12" sm="6" md="4">
             <div class="roster__info">
               <v-avatar size="100" class="roster__avatar">
-                <img src="/team/robotFemale.jpg" alt="Teresa Nogueira" />
+                <img src="/team/cropped/teresaNogueira.png" alt="Teresa Nogueira" />
               </v-avatar>
               <div class="roster__name">Teresa Nogueira</div>
               <div class="roster__position">MSc Student</div>
@@ -135,7 +135,7 @@
           <v-col cols="12" sm="6" md="4">
             <div class="roster__info">
               <v-avatar size="100" class="roster__avatar">
-                <img src="/team/robotMale.jpg" alt="André Silva" />
+                <img src="/team/cropped/andreSilva.png" alt="André Silva" />
               </v-avatar>
               <div class="roster__name">André Silva</div>
               <div class="roster__position">Research Engineer</div>
@@ -144,7 +144,7 @@
           <v-col cols="12" sm="6" md="4">
             <div class="roster__info">
               <v-avatar size="100" class="roster__avatar">
-                <img src="/team/robotFemale.jpg" alt="Matilde Vital" />
+                <img src="/team/cropped/matildeVital.png" alt="Matilde Vital" />
               </v-avatar>
               <div class="roster__name">Matilde Vital</div>
               <div class="roster__position">MSc Student</div>

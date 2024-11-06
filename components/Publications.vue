@@ -116,6 +116,36 @@
           authors: 'João Gonçalves, Pedro Lima',
           link: 'https://ieeexplore.ieee.org/document/8733615',
         },
+        {
+          title: 'A generic optimization based cartesian controller for robotic mobile manipulation',
+          type: 'Conference paper',
+          authors: 'Emilia Brzozowska, Oscar Lima, Rodrigo Ventura',
+          link: 'https://ieeexplore.ieee.org/abstract/document/8793635',
+        },
+        {
+          title: 'An Hierarchical Approach to Active Semantic Mapping Using Probabilistic Logic and Information Reward POMDP',
+          type: 'Journal Article',
+          authors: 'Tiago Veiga, Miguel Silva, Rodrigo Ventura, Pedro Lima',
+          link: 'https://ojs.aaai.org/index.php/ICAPS/article/view/3546',
+        },
+        {
+          title: 'Benchmarking Functionalities of Domestic Service Robots Through Scientific Competitions',
+          type: 'Journal Article',
+          authors: 'Meysam Basiri, Enrico Piazza, M. Matteucci, Pedro Lima',
+          link: 'https://link.springer.com/article/10.1007/s13218-019-00619-9',
+        },
+        {
+          title: 'A GSPN Software Framework to Model and Analyze Robot Tasks',
+          type: 'Conference paper',
+          authors: 'Carlos Azevedo, Pedro Lima',
+          link: 'https://ieeexplore.ieee.org/abstract/document/8733634',
+        },
+        {
+          title: 'Robust object recognition through symbiotic deep learning in mobile robots',
+          type: 'Conference paper',
+          authors: 'João Cartucho, Rodrigo Ventura, and Manuela Veloso.',
+          link: 'https://ieeexplore.ieee.org/abstract/document/8594067',
+        },
       ]);
   
       return { publications };
