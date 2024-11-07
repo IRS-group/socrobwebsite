@@ -23,6 +23,22 @@
                     <!-- <v-img :src="image" class="about__img" /> -->
                     <img src="/about/3.png" class="about__img" />
                 </v-carousel-item>
+                <v-carousel-item>
+                    <!-- <v-img :src="image" class="about__img" /> -->
+                    <img src="/about/4.png" class="about__img" />
+                </v-carousel-item>
+                <v-carousel-item>
+                    <!-- <v-img :src="image" class="about__img" /> -->
+                    <img src="/about/5.png" class="about__img" />
+                </v-carousel-item>
+                <v-carousel-item>
+                    <!-- <v-img :src="image" class="about__img" /> -->
+                    <img src="/about/6.png" class="about__img" />
+                </v-carousel-item>
+                <v-carousel-item>
+                    <!-- <v-img :src="image" class="about__img" /> -->
+                    <img src="/about/7.png" class="about__img" />
+                </v-carousel-item>
             </v-carousel>
 
             <!-- Text Section -->
@@ -35,6 +51,9 @@
                 </p>
                 <p class="about__description">
                     Our focus encompasses key areas such as perception and sensor fusion, decision-making under uncertainty, human-robot interaction, and manipulation and grasping. Together, we aim to advance the field of robotics and enhance the interactions between robots and their environments.
+                </p>
+                <p class="about__description">
+                    This is our newly launched website for 2025 and beyond. For additional details on our project history, you can look into our previous website <a href="https://irsgroup.isr.tecnico.ulisboa.pt/projects/socrob-home/" class="about_text_link" target="_blank" rel="noreferrer">here</a>.
                 </p>
             </div>
         </div>

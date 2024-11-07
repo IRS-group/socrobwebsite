@@ -30,3 +30,38 @@
     color: gray;
     margin-top: 0.25rem;
   }
+
+  .roster__data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2.5rem 0rem !important;/* Set a consistent vertical margin */
+    padding: 0 20px; /* Add side padding for small screens */
+  }
+
+/* Keep the description text styling */
+.roster__description {
+    text-align: center;
+    font-size: var(--small-font-size);
+    margin-bottom: 1rem;
+}
+
+.roster__email__color {
+  color: var(--first-color);
+}
+
+.roster__email__color:hover {
+  color: var(--second-color);
+}
+
+@media screen and (min-width: 1000px) {
+  .roster__data {
+    margin: 2.5rem 7.0rem !important;/* Set a consistent vertical margin */
+  }
+}
+
+@media screen and (min-width: 820px) {
+  .roster__data {
+    margin: 2.5rem 5.0rem !important;/* Set a consistent vertical margin */
+  }
+}

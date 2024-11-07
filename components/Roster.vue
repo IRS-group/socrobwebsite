@@ -150,6 +150,17 @@
               <div class="roster__position">MSc Student</div>
             </div>
           </v-col>
+          <!-- Recruitment Text -->
+          <v-col cols="12">
+            <div class="roster__data">
+              <p class="roster__description">
+                Are you looking for an amazing experience with real robots in a team environment, while contributing actively to state-of-the-art research and gaining personal experience that will prove fruitful for your academic and professional future?
+              </p>
+              <p class="roster__description">
+                If you are interested in joining SocRob@Home, please send an email to <a href="mailto:socrob.home@gmail.com" class="roster__email__color">socrob.home@gmail.com</a>, or directly contact the responsible, stating who you are, your motivations, your academic background, and how you would contribute to this project.
+              </p>
+            </div>
+          </v-col>
         </v-row>
       </v-container>
     </section>
