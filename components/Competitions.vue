@@ -16,7 +16,7 @@
                     </div>
                     <div>
                         <h3 class="competition__title">euRobin Coopetition 2024</h3>
-                        <span class="competition__subtitle">3nd Place</span>
+                        <span class="competition__subtitle">3rd Place</span>
                         <div class="competition__calendar">
                         <v-icon class="calendar-icon">mdi-calendar</v-icon> Nov 2024
                         </div>
