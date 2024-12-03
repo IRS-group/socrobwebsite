@@ -25,6 +25,10 @@
                 </v-carousel-item>
                 <v-carousel-item>
                     <!-- <v-img :src="image" class="about__img" /> -->
+                    <img src="/about/8.png" class="about__img" />
+                </v-carousel-item>
+                <v-carousel-item>
+                    <!-- <v-img :src="image" class="about__img" /> -->
                     <img src="/about/4.png" class="about__img" />
                 </v-carousel-item>
                 <v-carousel-item>

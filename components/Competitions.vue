@@ -7,6 +7,22 @@
 
         <div class="competitions__container container">
             <div class="competition__content" data-content id="competition">
+                <!-- competition Entry 0 -->
+                <div class="competition__data">
+                    <div></div>
+                    <div>
+                        <span class="competition__rounder"></span>
+                        <span class="competition__line"></span>
+                    </div>
+                    <div>
+                        <h3 class="competition__title">euRobin Coopetition 2024</h3>
+                        <span class="competition__subtitle">3nd Place</span>
+                        <div class="competition__calendar">
+                        <v-icon class="calendar-icon">mdi-calendar</v-icon> Nov 2024
+                        </div>
+                    </div>
+                </div>
+
                 <!-- competition Entry 1 -->
                 <div class="competition__data">
                     <div>
