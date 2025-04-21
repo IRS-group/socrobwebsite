@@ -9,6 +9,7 @@
         <Roster />
         <Robots />
         <Publications/>
+        <News/>
         <Media/>
       </main>
       <Footer/>
@@ -24,6 +25,7 @@
   import Roster from '@/components/Roster.vue'
   import Robots from '@/components/Robots.vue'
   import Publications from '@/components/Publications.vue'
+  import News from '@/components/News.vue'
   import Media from '@/components/Media.vue'
   import Footer from '@/components/Footer.vue'
 </script>

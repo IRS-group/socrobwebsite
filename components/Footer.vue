@@ -62,9 +62,9 @@
                 <a href="https://www.fct.pt/" target="_blank">
                     <img src="/logos/fct_logo_white.png" alt="FCT" class="footer__sponsor-logo" />
                 </a>
-                <a href="https://aquisevende.pt/" target="_blank">
+                <!-- <a href="https://aquisevende.pt/" target="_blank">
                     <img src="/logos/aqui-se-vende-textil-criativo.png" alt="AquiSeVendeTextilCreativo" class="footer__sponsor-logo" />
-                </a>
+                </a> -->
             </div>
             <p class="footer__copy">Website designed by Rodrigo Serra</p>
         </div>

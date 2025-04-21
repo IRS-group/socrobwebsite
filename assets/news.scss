@@ -1,15 +1,15 @@
-.publications_icon {
+.news_icon {
   font-size: var(--big-font-size);
   color: var(--text-color);
   opacity: 70%;
 }
 
-.publications__container {
+.news__container {
   max-width: 800px;
   margin: auto;
 }
 
-.publications__content {
+.news__content {
   background-color: #f5f5f5;
   width: 620px; /* Default width for large screens */
   height: auto; /* Adjusted height for consistent look */
@@ -23,34 +23,34 @@
   text-align: center;
 }
 
-.publications__data {
+.news__data {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 10px;
 }
 
-.publications__name {
+.news__name {
   font-size: 1.15rem;
   font-weight: bold;
   margin: 0 0 0.5rem;
   overflow-wrap: break-word;
 }
 
-.publications__type {
+.news__type {
   font-size: 0.9rem;
   color: #666;
   margin-bottom: 0.5rem;
 }
 
-.publications__info-author {
+.news__info-author {
   font-size: 0.85rem;
   color: #444;
   margin-bottom: 1rem;
   overflow-wrap: break-word;
 }
 
-.publications__author {
+.news__author {
   font-weight: bold;
 }
 
@@ -109,7 +109,7 @@
 
 /* Medium screens (tablets) */
 @media (max-width: 900px) {
-  .publications__content {
+  .news__content {
     width: 80%; /* Smaller width for medium screens */
     height: auto; /* Adjust height slightly */
   }
@@ -130,23 +130,23 @@
     }
   }
 
-  .publications__container {
+  .news__container {
     padding-left: 20px;
     padding-right: 20px;
   }
 
-  .publications__content {
+  .news__content {
     width: 100%; /* Full width on smaller screens */
     padding: 15px;
     height: auto;
   }
 
-  .publications__name {
+  .news__name {
     font-size: 1rem; /* Smaller font size on small screens */
   }
 
-  .publications__type,
-  .publications__info-author {
+  .news__type,
+  .news__info-author {
     font-size: 0.8rem;
   }
 
