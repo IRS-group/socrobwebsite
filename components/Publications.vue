@@ -31,6 +31,12 @@
 <script lang="ts" setup>
 const publications = [
   {
+    title: 'Indoor 2.5D Navigation for Ground Robots',
+    type: 'Conference paper',
+    authors: 'Rui Bettencourt, Catarina Caramalho, Gabriel Nunes, Rodrigo Serra, Alberto Vale, Pedro Lima',
+    link: 'https://ieeexplore.ieee.org/abstract/document/10970157',
+  },
+  {
     title: 'Door-to-Door Parcel Delivery From Supply Point to User’s Home With Heterogeneous Robot Team: The euROBIN First-Year Robotics Hackathon',
     type: 'Conference paper',
     authors: 'Alejandro Suarez, et al.',

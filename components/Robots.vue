@@ -57,7 +57,7 @@
                     <p class="robots__modal-robot-partners-list-element-text">Rode Mic</p>
                   </li>
                   <li class="robots__modal-robot-partners-list-element">
-                    <p class="robots__modal-robot-partners-list-element-text">Ouster OS1</p>
+                    <p class="robots__modal-robot-partners-list-element-text">Unitree LiDAR</p>
                   </li>
                   <li class="robots__modal-robot-partners-list-element">
                     <p class="robots__modal-robot-partners-list-element-text">2xHokuyo Laser</p>
@@ -66,7 +66,7 @@
                     <p class="robots__modal-robot-partners-list-element-text">Jetson Xavier NX</p>
                   </li>
                   <li class="robots__modal-robot-partners-list-element">
-                    <p class="robots__modal-robot-partners-list-element-text">TP-Link Switch</p>
+                    <p class="robots__modal-robot-partners-list-element-text">ASUS RT-BE88U Router</p>
                   </li>
                 </ul>
               </div>
@@ -74,14 +74,14 @@
           </div>
         </div>
       </div>
-      
-      <!-- Robot MBot -->
+
+      <!-- Lola (Booster T1) -->
       <div :key="2" class="robots__content">
         <div>
           <v-avatar size="100" class="robots__icon3">
-            <img src="/robots/mbot.png" alt="MBot" />
+            <img src="/robots/lola.png" alt="Lola" />
           </v-avatar>
-          <h3 class="robots__title">MBot</h3>
+          <h3 class="robots__title">Lola</h3>
           <button
             class="button button--flex button--small button--link robots__button"
             @click="openModal(2)"
@@ -93,6 +93,64 @@
         <div
           class="robots__modal"
           :class="{ 'active-modal': selectedRobotId === 2 }"
+          @click.self="closeModal"
+        >
+          <div class="robots__modal-content">
+            <h4 class="robots__modal-title">Lola</h4>
+            <p class="robots__modal-date">2025 - Current</p>
+            <v-btn icon @click="closeModal" class="robots__modal-close">
+              <v-icon>mdi-close</v-icon>
+            </v-btn>
+            <div class="robots__modal-robots grid">
+              <div class="robots__modal-robot">
+                <p class="robots__modal-robot-objective">
+                  <v-icon class="robots__modal-robot-objective-icon">mdi-robot-outline</v-icon>
+                  Description
+                </p>
+                <p class="robots__modal-robot-objective-text">
+                  LOLA, also known as Booster T1, is the latest addition to the SocRob@Home team. Designed with flexibility and compactness in mind, LOLA is a lightweight, mobile service robot ideal for indoor domestic environments. She features enhanced onboard computing for AI workloads, a depth camera for perception, and built-in audio for interaction. LOLA supports rapid experimentation and development of high-level robotic behaviors for service-oriented tasks.
+                </p>
+              </div>
+              <div class="robots__modal-robot">
+                <p class="robots__modal-robot-partners">
+                  <v-icon class="robots__modal-robot-partners-icon">mdi-cog-outline</v-icon>
+                  Hardware
+                </p>
+                <ul class="robots__modal-robot-partners-list">
+                  <li class="robots__modal-robot-partners-list-element">
+                    <p class="robots__modal-robot-partners-list-element-text">NVIDIA Jetson AGX Orin (64GB)</p>
+                  </li>
+                  <li class="robots__modal-robot-partners-list-element">
+                    <p class="robots__modal-robot-partners-list-element-text">Intel RealSense Camera</p>
+                  </li>
+                  <li class="robots__modal-robot-partners-list-element">
+                    <p class="robots__modal-robot-partners-list-element-text">Directional Microphone & Stereo Speaker</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Robot MBot -->
+      <div :key="3" class="robots__content">
+        <div>
+          <v-avatar size="100" class="robots__icon3">
+            <img src="/robots/mbot.png" alt="MBot" />
+          </v-avatar>
+          <h3 class="robots__title">MBot</h3>
+          <button
+            class="button button--flex button--small button--link robots__button"
+            @click="openModal(3)"
+          >
+            Read More
+            <v-icon class="button__icon robots__button-arrow">mdi-arrow-right</v-icon>
+          </button>
+        </div>
+        <div
+          class="robots__modal"
+          :class="{ 'active-modal': selectedRobotId === 3 }"
           @click.self="closeModal"
         >
           <div class="robots__modal-content">
@@ -134,7 +192,7 @@
       </div>
       
       <!-- Robot ISR-CoBot -->
-      <div :key="3" class="robots__content">
+      <div :key="4" class="robots__content">
         <div>
           <v-avatar size="100" class="robots__icon3">
             <img src="/robots/isr-cobot2.png" alt="ISR-CoBot" />
@@ -142,7 +200,7 @@
           <h3 class="robots__title">ISR-CoBot</h3>
           <button
             class="button button--flex button--small button--link robots__button"
-            @click="openModal(3)"
+            @click="openModal(4)"
           >
             Read More
             <v-icon class="button__icon robots__button-arrow">mdi-arrow-right</v-icon>
@@ -150,7 +208,7 @@
         </div>
         <div
           class="robots__modal"
-          :class="{ 'active-modal': selectedRobotId === 3 }"
+          :class="{ 'active-modal': selectedRobotId === 4 }"
           @click.self="closeModal"
         >
           <div class="robots__modal-content">
@@ -290,6 +348,19 @@
         },
         {
           id: 2,
+          name: 'Lola',
+          avatar: '/robots/lola.png',
+          photo: '/robots/lola.png',
+          date: '2025 - Current',
+          description: 'LOLA, also known as Booster T1, is the latest addition to the SocRob@Home team. Designed with flexibility and compactness in mind, LOLA is a lightweight, mobile service robot ideal for indoor domestic environments. She features enhanced onboard computing for AI workloads, a depth camera for perception, and built-in audio for interaction. LOLA supports rapid experimentation and development of high-level robotic behaviors for service-oriented tasks.',
+          hardware: [
+            'NVIDIA Jetson AGX Orin (64GB)',
+            'Intel RealSense Camera',
+            'Directional Microphone & Stereo Speaker',
+          ]
+        },
+        {
+          id: 3,
           name: 'MBot',
           avatar: '/robots/mbot.jpg',
           photo: '/robots/mbot.jpg',
@@ -302,7 +373,7 @@
           ]
         },
         {
-          id: 3,
+          id: 4,
           name: 'ISR-CoBot',
           avatar: '/robots/isr-cobot2.png',
           photo: '/robots/isr-cobot2.png',
