@@ -63,9 +63,9 @@
           <v-col cols="12" sm="6" md="4">
             <div class="roster__info">
               <v-avatar size="100" class="roster__avatar">
-                <img src="/team/cropped/miguelNabais.png" alt="Miguel Nabais" />
+                <img src="/team/cropped/inesSousa.png" alt="Inês Sousa" />
               </v-avatar>
-              <div class="roster__name">Miguel Nabais</div>
+              <div class="roster__name">Inês Sousa</div>
               <div class="roster__position">MSc Student</div>
             </div>
           </v-col>
@@ -99,9 +99,9 @@
           <v-col cols="12" sm="6" md="4">
             <div class="roster__info">
               <v-avatar size="100" class="roster__avatar">
-                <img src="/team/cropped/robinSteiger.png" alt="Robin Steiger" />
+                <img src="/team/cropped/duarteSantos.png" alt="Duarte Santos" />
               </v-avatar>
-              <div class="roster__name">Robin Steiger</div>
+              <div class="roster__name">Duarte Santos</div>
               <div class="roster__position">MSc Student</div>
             </div>
           </v-col>
