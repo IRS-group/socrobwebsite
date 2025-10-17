@@ -134,6 +134,10 @@
         max-width: 100%; /* Ensure logos fit well within smaller screens */
         height: auto; /* Maintain aspect ratio */
     }
+
+    .footer__sponsor-logo-tdreams {
+        max-height: 80px;
+    }
 }
   
 @media screen and (min-width: 768px) {

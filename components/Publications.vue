@@ -31,6 +31,18 @@
 <script lang="ts" setup>
 const publications = [
   {
+    title: 'Large Language Model-Based Robot Task Planning from Voice Command Transcriptions',
+    type: 'Conference paper',
+    authors: 'Afonso Certo, Bruno Martins, Carlos Azevedo, Pedro U. Lima',
+    link: 'https://ieeexplore.ieee.org/', // placeholder until the IROS 2025 DOI is available
+  },
+  {
+    title: 'Perspective-Shifted Neuro-Symbolic World Models: A Framework for Socially-Aware Robot Navigation',
+    type: 'Preprint',
+    authors: 'Kevin Alcedo, Pedro U. Lima, Rachid Alami',
+    link: 'https://arxiv.org/abs/2503.20425',
+  },
+  {
     title: 'Indoor 2.5D Navigation for Ground Robots',
     type: 'Conference paper',
     authors: 'Rui Bettencourt, Catarina Caramalho, Gabriel Nunes, Rodrigo Serra, Alberto Vale, Pedro Lima',

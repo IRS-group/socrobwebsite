@@ -13,35 +13,35 @@
                 </v-carousel-item> -->
                 <v-carousel-item>
                     <!-- <v-img :src="image" class="about__img" /> -->
-                    <img src="/about/1.png" class="about__img" />
+                    <img src="/about/1.jpeg" class="about__img" />
                 </v-carousel-item>
                 <v-carousel-item>
                     <!-- <v-img :src="image" class="about__img" /> -->
-                    <img src="/about/2.png" class="about__img" />
+                    <img src="/about/2.jpeg" class="about__img" />
                 </v-carousel-item>
                 <v-carousel-item>
                     <!-- <v-img :src="image" class="about__img" /> -->
-                    <img src="/about/3.png" class="about__img" />
+                    <img src="/about/3.jpeg" class="about__img" />
                 </v-carousel-item>
                 <v-carousel-item>
                     <!-- <v-img :src="image" class="about__img" /> -->
-                    <img src="/about/8.png" class="about__img" />
+                    <img src="/about/8.jpeg" class="about__img" />
                 </v-carousel-item>
                 <v-carousel-item>
                     <!-- <v-img :src="image" class="about__img" /> -->
-                    <img src="/about/4.png" class="about__img" />
+                    <img src="/about/4.jpeg" class="about__img" />
                 </v-carousel-item>
                 <v-carousel-item>
                     <!-- <v-img :src="image" class="about__img" /> -->
-                    <img src="/about/5.png" class="about__img" />
+                    <img src="/about/5.jpeg" class="about__img" />
                 </v-carousel-item>
                 <v-carousel-item>
                     <!-- <v-img :src="image" class="about__img" /> -->
-                    <img src="/about/6.png" class="about__img" />
+                    <img src="/about/6.jpeg" class="about__img" />
                 </v-carousel-item>
                 <v-carousel-item>
                     <!-- <v-img :src="image" class="about__img" /> -->
-                    <img src="/about/7.png" class="about__img" />
+                    <img src="/about/7.jpeg" class="about__img" />
                 </v-carousel-item>
             </v-carousel>
 
