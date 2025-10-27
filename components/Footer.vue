@@ -27,6 +27,9 @@
                     <a href="https://www.instagram.com/socrobhome/" target="_blank" rel="noreferrer" class="footer__social">
                         <v-icon>mdi-instagram</v-icon>
                     </a>
+                    <a href="https://www.linkedin.com/company/socrob-home/" target="_blank" rel="noreferrer" class="footer__social">
+                        <v-icon>mdi-linkedin</v-icon>
+                    </a>
                     <a href="https://www.youtube.com/@socrob_home" target="_blank" rel="noreferrer" class="footer__social">
                         <v-icon>mdi-youtube</v-icon>
                     </a>

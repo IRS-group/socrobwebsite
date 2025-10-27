@@ -13,6 +13,14 @@
                 <v-icon>mdi-instagram</v-icon>
                 </a>
                 <a
+                href="https://www.linkedin.com/company/socrob-home/"
+                target="_blank"
+                rel="noreferrer"
+                class="home__social-icon"
+                >
+                <v-icon>mdi-linkedin</v-icon>
+                </a>
+                <a
                 href="https://www.youtube.com/@socrob_home"
                 target="_blank"
                 rel="noreferrer"
@@ -65,7 +73,7 @@
                 </h3>
                 <p class="home__description">Institute for Systems & Robotics</p>
         
-                <a href="https://irs-group.github.io/socrobwebsite/tdp/TeamDescriptionPaper.pdf" download="TeamDescriptionPaper.pdf" target="_blank"class="home_button_link button--flex">
+                <a href="https://irs-group.github.io/socrobwebsite/tdp/TeamDescriptionPaper2026.pdf" download="TeamDescriptionPaper2026.pdf" target="_blank"class="home_button_link button--flex">
                     Team Description Paper
                     <v-icon>mdi-book-arrow-down-outline</v-icon>
                 </a>

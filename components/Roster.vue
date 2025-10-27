@@ -63,6 +63,15 @@
           <v-col cols="12" sm="6" md="4">
             <div class="roster__info">
               <v-avatar size="100" class="roster__avatar">
+                <img src="/team/cropped/abdullah.jpeg" alt="Abdullah Alamer" />
+              </v-avatar>
+              <div class="roster__name">Abdullah Alamer</div>
+              <div class="roster__position">PhD Student</div>
+            </div>
+          </v-col>
+          <v-col cols="12" sm="6" md="4">
+            <div class="roster__info">
+              <v-avatar size="100" class="roster__avatar">
                 <img src="/team/cropped/andreSilva.jpeg" alt="André Silva" />
               </v-avatar>
               <div class="roster__name">André Silva</div>
@@ -147,6 +156,15 @@
                 <img src="/team/cropped/vitor.jpeg" alt="Vítor Fonseca" />
               </v-avatar>
               <div class="roster__name">Vítor Fonseca</div>
+              <div class="roster__position">BSc Student</div>
+            </div>
+          </v-col>
+          <v-col cols="12" sm="6" md="4">
+            <div class="roster__info">
+              <v-avatar size="100" class="roster__avatar">
+                <img src="/team/cropped/bea.jpeg" alt="Beatriz Pimenta" />
+              </v-avatar>
+              <div class="roster__name">Beatriz Pimenta</div>
               <div class="roster__position">BSc Student</div>
             </div>
           </v-col>
