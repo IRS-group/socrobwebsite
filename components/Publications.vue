@@ -31,14 +31,20 @@
 <script lang="ts" setup>
 const publications = [
   {
+  title: 'Robot Contests as a Catalyst for Robotics Science',
+  type: 'Journal article',
+  authors: 'Pedro U. Lima, Carlos Azevedo, Rodrigo Serra',
+  link: 'https://www.annualreviews.org/content/journals/10.1146/annurev-control-022624-012944',
+  },
+  {
     title: 'Large Language Model-Based Robot Task Planning from Voice Command Transcriptions',
     type: 'Conference paper',
     authors: 'Afonso Certo, Bruno Martins, Carlos Azevedo, Pedro U. Lima',
-    link: 'https://ieeexplore.ieee.org/', // placeholder until the IROS 2025 DOI is available
+    link: 'https://afonsocerto.com/files/iros2025_llm_robot_planning.pdf',
   },
   {
     title: 'Perspective-Shifted Neuro-Symbolic World Models: A Framework for Socially-Aware Robot Navigation',
-    type: 'Preprint',
+    type: 'Conference paper',
     authors: 'Kevin Alcedo, Pedro U. Lima, Rachid Alami',
     link: 'https://arxiv.org/abs/2503.20425',
   },

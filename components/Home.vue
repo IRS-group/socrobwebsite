@@ -73,7 +73,7 @@
                 </h3>
                 <p class="home__description">Institute for Systems & Robotics</p>
         
-                <a href="https://irs-group.github.io/socrobwebsite/tdp/TeamDescriptionPaper2026.pdf" download="TeamDescriptionPaper2026.pdf" target="_blank"class="home_button_link button--flex">
+                <a href="https://irs-group.github.io/socrobwebsite/tdp/TeamDescriptionPaper2026_v2.pdf" download="TeamDescriptionPaper2026_v2.pdf" target="_blank"class="home_button_link button--flex">
                     Team Description Paper
                     <v-icon>mdi-book-arrow-down-outline</v-icon>
                 </a>
